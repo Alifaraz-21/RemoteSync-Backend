@@ -1,4 +1,5 @@
 const {login} = require('../services/userService');
+const {createUser} = require('../services/userdumy');
 
 const authLogin =async(req,res) =>{
   const {email,password} = req.body;
